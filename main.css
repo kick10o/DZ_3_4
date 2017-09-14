@@ -1,0 +1,18 @@
+a[href = "http://kiktan-basov.livejournal.com"] {
+    font-family:Verdana;
+    font-size:17px;
+    color: green;
+    background: black;
+}
+
+ul.list {
+    color: yellow;
+}
+
+
+.list>li {border-bottom:1px dashed #450}
+a:hover {background: white;}
+a:visited {background:orange;}
+
+li:nth-child(even) {background: purple;}
+h4::after {content:"by the way";}
